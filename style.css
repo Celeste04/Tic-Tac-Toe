@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Secular+One&display=swap');
+
+html,body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    background-color: black;
+}
+h1{
+    text-align: left;
+    color: white;
+    font-size: 50px;
+    margin: 20px;
+}
+h2{
+    color:white;
+}
+button{
+    padding: 20px 20px;
+    font-size: 20px;
+    border-radius: 8px;    
+    background-color:rgba(66, 245, 102,0.5);
+    color: white;
+    border:none;
+    box-shadow: 0 6px #999;
+    position: absolute;
+    left: 50px;
+}
+button:hover{
+    padding: 20px 20px;
+    font-size: 20px;
+    border-radius: 8px;    
+    background-color:white;
+    transition-duration: 0.2s;
+    background-color:rgba(36, 144, 58, 0.5);
+    color: rgba(255,255,255,0.8);
+    box-shadow: 0 3px #666;
+    transform: translateY(3px);
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border:1px solid;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+#board{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 10px;
+    margin: auto;
+    align-items: center;
+    float: left;
+    margin: 100px;
+    color:white;
+    font-size: 100px;
+
+}
