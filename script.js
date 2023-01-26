@@ -74,7 +74,7 @@ function winCheck(){
         console.log("X wins");
         playerText.textContent = "X wins!";
     }
-    if (boardSoFar[2] == "X" && boardSoFar[4] == "X" && boardSoFar[7] == "X"){
+    if (boardSoFar[2] == "X" && boardSoFar[4] == "X" && boardSoFar[6] == "X"){
         gameOver = true;
         console.log("X wins");
         playerText.textContent = "X wins!";
